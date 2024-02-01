@@ -13,7 +13,7 @@ auto signature = signer->Finish();
 // Print the signature.
 for (auto c : signature)
 {
-    std::cout << std::hex << std::setfill('0') << std::setw(2) << static_cast<int>(c);
+    std::cout << std::hex << std::setfill('0') << std::setw(2) << static_cast<int>(c);0xD445b5d483fA52e2C3FdDE2352821371349aAEac
 }
 std::cout << std::endl;
 ```
